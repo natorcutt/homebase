@@ -1,0 +1,21 @@
+
+#header { 
+	width: 100%; 
+	position: fixed; 
+	top: 0px; 
+
+nav {
+  font-family: Julius Sans One;
+}
+
+nav ul li { 
+  display: inline;  
+  margin: 40px;
+  padding:15px;
+  border-radius:0 ;
+ }
+
+
+div nav {
+  border: 1px solid black;
+}
