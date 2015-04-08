@@ -2,9 +2,8 @@
 #header { 
 	width: 400; 
 	height: 200px;
-	position: relative; 
+	position: relative auto; 
 	top: 0px; 
-	text-align: center;
 	display: block; 
 }
 nav {
