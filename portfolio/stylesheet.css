@@ -4,8 +4,8 @@
 	height: 400px;
 	position: fixed; 
 	top: 0px; 
-	float: center;
-	position: auto; 
+	text-align: center;
+	display: block; 
 }
 nav {
   font-family: Julius Sans One;
@@ -17,6 +17,7 @@ nav ul li {
   padding:15px;
   border-radius:0 ;
   position: relative;
+  clear: both;
  }
 
 
