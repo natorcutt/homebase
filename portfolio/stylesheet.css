@@ -4,7 +4,8 @@
 	height: 400px;
 	position: fixed; 
 	top: 0px; 
-	position: center;
+	float: center;
+	position: auto; 
 }
 nav {
   font-family: Julius Sans One;
@@ -15,6 +16,7 @@ nav ul li {
   margin: 40px;
   padding:15px;
   border-radius:0 ;
+  position: relative;
  }
 
 
