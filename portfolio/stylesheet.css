@@ -4,8 +4,8 @@
 	height: 400px;
 	position: fixed; 
 	top: 0px; 
-
-
+	position: center;
+}
 nav {
   font-family: Julius Sans One;
 }
