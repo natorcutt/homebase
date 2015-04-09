@@ -6,6 +6,7 @@
 	margin-left: auto;  
 	margin-right: auto;
 	top: 0px;
+	position: relative;
 }
 
 nav {
@@ -32,5 +33,6 @@ width: 200px;
 height: 200px; 
 position: relative; 
 margin-left: 20px;
+position: relative;
 }
 
