@@ -1,7 +1,7 @@
 
 /* This is the id div for the header image */
 #header { 
-	width: 100%; 
+	width: 800px; 
 	height: 250px; 
 	margin-left: auto;  
 	margin-right: auto;
@@ -12,6 +12,7 @@
 /* This is the list items of a nav bar/ adding links to various pages */ 
 nav ul li { 
   font-size: 15px;
+  text-align: center;
   display: inline;  
   margin: 15px;
   padding: 5px;
@@ -23,7 +24,7 @@ nav ul li {
 /* This is the box div of nav bar */ 
 div nav {
   border: 1px solid black;
-  height: 20px; 
+  height: 25px; 
   padding: 5px;
 }
  
@@ -42,6 +43,8 @@ position: relative;
 float: right; 
 text-align: right;
 font-size: 15px;
+height: 300px; 
+width: 500px; 
 } 
 
 
