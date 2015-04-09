@@ -25,6 +25,8 @@ nav ul li {
 
 div nav {
   border: 1px solid black;
+  height: 20px; 
+  padding: 5px;
 }
  
 
@@ -35,4 +37,11 @@ position: relative;
 margin-left: 20px;
 position: relative;
 }
+
+#bio { 
+clear: right; 
+text-align: right;
+} 
+
+
 
