@@ -2,9 +2,10 @@
 /* This is the id div for the header image */
 #header { 
 	width: 600px; 
-	height: 250px; 
+	height: 400px; 
 	margin-left: auto;  
 	margin-right: auto;
+	float: center;
 	top: 0px;
 	position: relative;
 }
@@ -30,8 +31,8 @@ div nav {
  
 /* This is the profile picture on my home page next to my bio paragraph */ 
 .biopic { 
-width: 200px; 
-height: 200px; 
+width: 250px; 
+height: 250px; 
 position: relative; 
 margin-left: 50px;
 margin-right: 450px;
