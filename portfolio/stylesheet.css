@@ -1,7 +1,7 @@
 
 #header { 
-	width: 800px; 
-	height: 800px; 
+	width: 1000px; 
+	height: 900px; 
 	margin-left: auto; 
 	margin-right: auto; 
 	top: 0px; 
@@ -13,9 +13,9 @@ nav {
 }
 
 nav ul li { 
-  font-size: 20px;
+  font-size: 10px;
   display: inline;  
-  margin: 30px;
+  margin: 15px;
   padding: 5px;
   border-radius:0 ;
   position: relative;
