@@ -2,7 +2,7 @@
 /* This is the id div for the header image */
 #header { 
 	width: 600px; 
-	height: 250px; 
+	height: 200px; 
 	margin-left: auto;  
 	margin-right: auto;
 	float: center;
@@ -16,7 +16,7 @@ nav ul li {
   text-align: center;
   display: inline;  
   margin: 15px;
-  padding: 15px;
+  padding: 30px;
   border-radius:0 ;
   position: relative;
   font-family: Julius Sans One; 
@@ -31,8 +31,8 @@ div nav {
  
 /* This is the profile picture on my home page next to my bio paragraph */ 
 .biopic { 
-width: 250px; 
-height: 250px; 
+width: 200px; 
+height: 200px; 
 position: relative; 
 margin-left: 50px;
 margin-right: 450px;
