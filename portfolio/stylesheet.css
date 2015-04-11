@@ -43,7 +43,7 @@ position: relative;
 /* This is the text portion of my bio paragraph */
 #bio { 
 float: right; 
-text-align: right;
+text-align: left;
 font-size: 15px;
 height: 300px; 
 width: 500px; 
@@ -54,4 +54,8 @@ margin-left: 350px;
 .biocontent { 
 display: inline; 
 }
+
+nav ul lid div { 
+
+} 
 
