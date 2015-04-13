@@ -28,6 +28,7 @@ div nav {
   height: 25px; 
   padding: 5px;
 }
+
  
 /* This is the profile picture on my home page next to my bio paragraph */ 
 .biopic { 
@@ -55,7 +56,5 @@ margin-left: 350px;
 display: inline; 
 }
 
-nav ul li div { 
-display: inline;
-} 
+
 
