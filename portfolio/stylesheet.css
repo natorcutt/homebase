@@ -11,7 +11,7 @@
 }
 
 /* This is the list items of a nav bar/ adding links to various pages */ 
-nav ul li { 
+nav ul div li { 
   font-size: 15px;
   text-align: center;
   display: inline;  
@@ -28,6 +28,7 @@ div nav {
   height: 25px; 
   padding: 5px;
 }
+
 
  
 /* This is the profile picture on my home page next to my bio paragraph */ 
