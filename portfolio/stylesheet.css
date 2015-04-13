@@ -19,6 +19,13 @@ nav ul div li {
   border-radius:0 ;
   font-family: Julius Sans One; 
  }
+ 
+/* This is the physical div links for the nav list items */ 
+nav ul div {
+border: .5px solid black; 
+height: 15px; 
+padding: 5px; 
+}
 
 /* This is the box div of nav bar */ 
 div nav {
