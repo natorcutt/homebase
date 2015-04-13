@@ -1,30 +1,30 @@
 
 /* This is the id div for the header image */
-#header { 
-	width: 500px; 
-	height: 300px; 
-	margin-left: auto;  
-	margin-right: auto;
-	float: center;
-	top: 0px;
-	position: relative;
+header img { 
+	width: 500px;
+	display:block;
+	margin:auto;
+	
 }
 
 /* This is the list items of a nav bar/ adding links to various pages */ 
 nav ul li a { 
-  font-size: 15px;
-  display: inline;  
-  margin: auto;
+  text-decoration:none;
+  font-size: 15px; 
   padding: 30px;
-  border-radius:0 ;
   font-family: Julius Sans One; 
  }
- 
+
 /* This is the physical div links for the nav list items */ 
-nav ul div {
+nav ul {
 border: .5px solid black; 
 height: 15px; 
 padding: 5px; 
+}
+
+nav ul li {
+display: block;
+float: left;
 }
 
 /* This is the box div of nav bar */ 
@@ -44,7 +44,7 @@ position: relative;
 margin-left: 50px;
 margin-right: 450px;
 float: left;
-position: relative;
+
 }
 
 /* This is the text portion of my bio paragraph */
