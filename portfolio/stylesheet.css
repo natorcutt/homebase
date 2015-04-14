@@ -4,7 +4,6 @@ header img {
 	width: 500px;
 	display:block;
 	margin:auto;
-	
 }
 
 /* This is the list items of a nav bar/ adding links to various pages */ 
@@ -12,55 +11,47 @@ nav ul li a {
   text-decoration:none;
   font-size: 15px; 
   padding: 30px;
-  font-family: Julius Sans One; 
+  font-family: Cinzel, serif;
+  margin: auto;
  }
 
-/* This is the physical div links for the nav list items */ 
-nav ul {
-border: .5px solid black; 
-height: 15px; 
-padding: 5px; 
-}
-
+/* This makes the links in line */
 nav ul li {
 display: block;
 float: left;
+margin: auto;
 }
-
-/* This is the box div of nav bar */ 
-div nav {
-  border: 1px solid black;
-  height: 25px; 
-  padding: 0px;
-}
-
 
  
 /* This is the profile picture on my home page next to my bio paragraph */ 
 .biopic { 
-width: 200px; 
-height: 200px; 
-position: relative; 
-margin-left: 50px;
-margin-right: 450px;
-float: left;
-
+width: 300px; 
+height: 300px;  
+margin-top: 50px;
+margin-left: 100px;
+margin-right: 860px;
 }
 
 /* This is the text portion of my bio paragraph */
 #bio { 
-float: right; 
+font-family: Raleway;
 text-align: left;
 font-size: 15px;
 height: 300px; 
 width: 500px; 
-margin-right: 40px; 
-margin-left: 350px;
+display: block;
+float: left;
+margin-left: 460px;
 } 
 
-.biocontent { 
-display: inline; 
-}
+
+/* footer { 
+border: 1px black solid; 
+display: block;
+position: absolute;
+margin-top: 100%; 
+width: 100%;
+} */
 
 
 
