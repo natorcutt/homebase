@@ -45,6 +45,10 @@ float: left;
 margin-left: 460px;
 } 
 
+embed { 
+display: block; 
+float: left; 
+}
 
 /* footer { 
 border: 1px black solid; 
