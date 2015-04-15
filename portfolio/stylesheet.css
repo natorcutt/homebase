@@ -45,9 +45,35 @@ float: left;
 margin-left: 460px;
 } 
 
+/* This is for the pdf of resume */
 embed { 
 display: block; 
 float: left; 
+width: 650px;
+height: 800px;
+}
+
+/*This is the heading of Writing page */
+.writing {
+font-family: Raleway; 
+font-size: 25px; 
+text-align: center;
+padding: 15px;
+}
+
+/* This is the titles of projects */ 
+.portfolio {
+font-family: Raleway; 
+font-size: 20px; 
+text-align: left; 
+padding: 10px;
+}
+
+/* This is the description of projects */ 
+.description{
+font-family: Raleway; 
+font-size: 15px;
+text-align: left; 
 }
 
 /* footer { 
