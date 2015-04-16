@@ -144,7 +144,7 @@ height: 355px;
 display: block; 
 margin-top: 100px; 
 float: left;
-border: 1.5px #D167FF dashed;
+border: 1.75px #D167FF dashed;
 } 
 
 #socialmedia p {
@@ -162,8 +162,13 @@ text-align: center;
 .blue { 
 font-family: Raleway; 
 font-size: 17px; 
+text-decoration: none; 
 } 
 
+#socialmedia li a { 
+text-decoration: none; 
+color: #27AFCC;
+}
 
 /* footer { 
 border: 1px black solid; 
