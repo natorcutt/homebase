@@ -6,6 +6,12 @@ header img {
 	margin:auto;
 }
 
+nav {
+	width:817px;
+	display:block;
+	margin:auto;
+}
+
 /* This is the list items of a nav bar/ adding links to various pages */ 
 nav ul li a { 
   text-decoration:none;
@@ -20,17 +26,23 @@ nav ul li a {
 nav ul li {
 display: block;
 float: left;
-margin: auto;
 }
 
+.container { 
+width: 950px;
+height: 900px;
+display: block; 
+margin: auto; 
+}
  
 /* This is the profile picture on my home page next to my bio paragraph */ 
 .biopic { 
-width: 300px; 
-height: 300px;  
+width: 200px; 
+height: 200px;  
 margin-top: 50px;
-margin-left: 100px;
-margin-right: 860px;
+margin-left: 50px; 
+float: left; 
+padding: 15px; 
 }
 
 /* This is the text portion of my bio paragraph */
@@ -39,18 +51,20 @@ font-family: Raleway;
 text-align: left;
 font-size: 15px;
 height: 300px; 
-width: 500px; 
+width: 450px; 
+padding: 40px;
 display: block;
 float: left;
-margin-left: 460px;
+margin-bottom: 50px;
 } 
 
 /* This is for the pdf of resume */
 embed { 
 display: block; 
-float: left; 
-width: 650px;
+float: right; 
+width: 625px;
 height: 800px;
+margin-top: 50px;
 }
 
 /*This is the heading of Writing page */
@@ -58,7 +72,9 @@ height: 800px;
 font-family: Raleway; 
 font-size: 25px; 
 text-align: center;
-padding: 15px;
+padding: 50px;
+width: 200px;
+margin: auto; 
 }
 
 /* This is the titles of projects */ 
