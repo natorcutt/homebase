@@ -92,6 +92,21 @@ font-size: 15px;
 text-align: left; 
 }
 
+.text{ 
+width: 750px; 
+height: 600px;
+display: block;
+float: right; 
+}
+
+.thumbnail{ 
+width: 200px; 
+height: 850px;
+display: block;
+float: left; 
+}
+
+
 /* footer { 
 border: 1px black solid; 
 display: block;
