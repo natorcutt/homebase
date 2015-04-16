@@ -62,8 +62,8 @@ margin-bottom: 50px;
 embed { 
 display: block; 
 float: right; 
-width: 625px;
-height: 800px;
+width: 575px;
+height: 700px;
 margin-top: 50px;
 }
 
@@ -91,6 +91,30 @@ font-family: Raleway;
 font-size: 15px;
 text-align: left; 
 }
+
+/* this is the thumbnail article that shows the images of descriptions */ 
+.thumbnail{ 
+width: 200px; 
+height: 900px; 
+display: block; 
+float: left;
+margin-top: 160px; 
+} 
+
+.thumbnail img{ 
+width: 150px; 
+height: 100px;
+margin-top: 33px; 
+}
+
+.thumbnail p { 
+font-family: Raleway;
+font-size: 10px; 
+text-align: left;
+margin-top: 5px; 
+}
+
+
 
 .text{ 
 width: 750px; 
@@ -140,7 +164,7 @@ height: 300px;
 /* The arcticle ID that encases the left section of the contact page */ 
 #socialmedia {
 width: 300px; 
-height: 355px;
+height: 400px;
 display: block; 
 margin-top: 100px; 
 float: left;
@@ -169,6 +193,29 @@ text-decoration: none;
 text-decoration: none; 
 color: #27AFCC;
 }
+
+#resumewrite { 
+width: 350px; 
+height: 550px;
+text-align: left; 
+display: block; 
+float: left; 
+font-family: Raleway; 
+font-size: 15px;  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer { 
 border: 1px black solid; 
