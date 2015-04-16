@@ -106,6 +106,64 @@ display: block;
 float: left; 
 }
 
+/* This is the for or basically encasing of the message form */ 
+form {
+width: 550px;  
+font-family: Raleway;
+font-size: 17px; 
+}
+
+.form{ 
+width: 550px; 
+height: 700px; 
+display: block; 
+float: right; 
+margin-top: 75px;
+}
+
+
+/* These are for the size of the buttons */ 
+.button{ 
+width: 125px;
+}
+
+/* The input and text area are for sizing of the message form */ 
+input {
+width: 250px; 
+}
+
+textarea{ 
+width: 500px; 
+height: 300px;
+}
+
+/* The arcticle ID that encases the left section of the contact page */ 
+#socialmedia {
+width: 300px; 
+height: 355px;
+display: block; 
+margin-top: 100px; 
+float: left;
+border: 1.5px #D167FF dashed;
+} 
+
+#socialmedia p {
+font-family: Raleway; 
+font-size: 17px; 
+text-decoration: none; 
+margin-left: 10px;
+}
+
+#socialmedia h3 { 
+font-family: Raleway; 
+text-align: center; 
+} 
+
+.blue { 
+font-family: Raleway; 
+font-size: 17px; 
+} 
+
 
 /* footer { 
 border: 1px black solid; 
