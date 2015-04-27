@@ -25,6 +25,10 @@ nav ul li a {
  a:hover{ 
  color: #743AE8; 
  }
+ 
+ a:active {
+ color: #FF672E;
+ }
 
 /* This makes the links in line */
 nav ul li {
