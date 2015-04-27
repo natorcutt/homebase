@@ -41,6 +41,11 @@ margin: auto;
 z-index: 2;
 }
  
+.spacing { 
+display: block; 
+margin: auto; 
+} 
+
 /* This is the profile picture on my home page next to my bio paragraph */ 
 .biopic { 
 width: 200px; 
