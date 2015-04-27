@@ -16,7 +16,7 @@ nav {
 nav ul li a { 
   text-decoration:none;
   font-size: 16px; 
-  padding: 35px;
+  padding: 30px;
   font-family: Cinzel, serif;
   color: black;
   margin: auto;
@@ -46,6 +46,7 @@ width: 200px;
 height: 200px;  
 margin-top: 50px;
 margin-left: 50px; 
+display: block;
 float: left; 
 padding: 15px; 
 }
