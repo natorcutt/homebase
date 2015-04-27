@@ -15,7 +15,7 @@ nav {
 /* This is the list items of a nav bar/ adding links to various pages */ 
 nav ul li a { 
   text-decoration:none;
-  font-size: 15px; 
+  font-size: 16px; 
   padding: 30px;
   font-family: Cinzel, serif;
   color: black;
@@ -60,7 +60,7 @@ padding: 15px;
 #bio { 
 font-family: Raleway;
 text-align: left;
-font-size: 14px;
+font-size: 15px;
 height: 300px; 
 width: 450px; 
 padding: 40px;
