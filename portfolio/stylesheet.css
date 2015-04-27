@@ -15,8 +15,8 @@ nav {
 /* This is the list items of a nav bar/ adding links to various pages */ 
 nav ul li a { 
   text-decoration:none;
-  font-size: 18px; 
-  padding: 30px;
+  font-size: 17px; 
+  padding: 35px;
   font-family: Cinzel, serif;
   color: black;
   margin: auto;
