@@ -80,7 +80,7 @@ margin-top: 50px;
 } 
 
 .bio { 
-text-indent: 12px; 
+text-indent: 16px; 
 } 
 
 
@@ -116,7 +116,7 @@ padding: 10px;
 font-family: Raleway; 
 font-size: 15px;
 text-align: left; 
-text-indent: 12px; 
+text-indent: 16px; 
 }
 
 /* this is the thumbnail article that shows the images of descriptions */ 
@@ -232,7 +232,7 @@ font-size: 15px;
 }  
 
 #resumewrite p { 
-text-indent: 12px; 
+text-indent: 16px; 
 } 
 
 
