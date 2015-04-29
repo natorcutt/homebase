@@ -56,6 +56,15 @@ float: left;
 padding: 15px; 
 }
 
+.biopic1 { 
+width: 200px; 
+height: 200px;  
+margin-top: 50px;
+margin-left: 75px; 
+float: left; 
+padding: 15px; 
+}
+
 /* This is the text portion of my bio paragraph */
 #bio { 
 font-family: Raleway;
@@ -66,7 +75,7 @@ width: 450px;
 display: block;
 float: right;
 margin-bottom: 50px;
-margin-right: 100px; 
+margin-left: 75px; 
 
 } 
 
