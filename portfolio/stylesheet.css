@@ -79,6 +79,11 @@ margin-right: 60px;
 margin-top: 50px;
 } 
 
+.bio { 
+text-indent: 7px; 
+} 
+
+
 /* This is for the pdf of resume */
 embed { 
 display: block; 
@@ -111,6 +116,7 @@ padding: 10px;
 font-family: Raleway; 
 font-size: 15px;
 text-align: left; 
+text-indent: 7px; 
 }
 
 /* this is the thumbnail article that shows the images of descriptions */ 
@@ -225,6 +231,9 @@ font-family: Raleway;
 font-size: 15px;  
 }  
 
+#resumewrite p { 
+text-indent: 7px; 
+} 
 
 
 
