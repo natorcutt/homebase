@@ -64,9 +64,10 @@ font-size: 15px;
 height: 300px; 
 width: 450px; 
 display: block;
-float: left;
+float: right;
 margin-bottom: 50px;
-margin-left: 280px; 
+margin-right: 200px; 
+
 } 
 
 /* This is for the pdf of resume */
