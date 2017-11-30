@@ -1,0 +1,259 @@
+
+/* This is the id div for the header image */
+header img { 
+	width: 500px;
+	display:block;
+	margin:auto;
+}
+
+nav {
+	width:817px;
+	display:block;
+	margin:auto;
+}
+
+/* This is the list items of a nav bar/ adding links to various pages */ 
+nav ul li a { 
+  text-decoration:none;
+  font-size: 16px; 
+  padding: 30px;
+  font-family: Cinzel, serif;
+  color: black;
+  margin: auto;
+ }
+ 
+ a:hover{ 
+ color: #743AE8; 
+ }
+ 
+
+/* This makes the links in line */
+nav ul li {
+display: block;
+float: left;
+}
+
+.container { 
+width: 950px;
+height: 900px;
+display: block; 
+margin: auto; 
+z-index: 2;
+}
+ 
+.spacing { 
+display: block; 
+margin: auto; 
+} 
+
+/* This is the profile picture on my home page next to my bio paragraph */ 
+.biopic { 
+width: 200px; 
+height: 200px;  
+margin-top: 50px;
+margin-left: 50px; 
+float: left; 
+padding: 15px; 
+}
+
+.biopic1 { 
+width: 200px; 
+height: 200px;  
+margin-top: 50px;
+margin-left: 85px; 
+float: left; 
+padding: 15px; 
+}
+
+/* This is the text portion of my bio paragraph */
+#bio { 
+font-family: Raleway;
+text-align: left;
+font-size: 15px;
+height: 300px; 
+width: 450px; 
+display: block;
+float: right;
+margin-bottom: 50px;
+margin-right: 60px; 
+margin-top: 50px;
+} 
+
+.bio { 
+text-indent: 16px; 
+} 
+
+
+/* This is for the pdf of resume */
+embed { 
+display: block; 
+float: right; 
+width: 575px;
+height: 700px;
+margin-top: 50px;
+}
+
+/*This is the heading of Writing page */
+.writing {
+font-family: Raleway; 
+font-size: 25px; 
+text-align: center;
+padding: 50px;
+width: 350px;
+margin: auto; 
+}
+
+/* This is the titles of projects */ 
+.portfolio {
+font-family: Raleway; 
+font-size: 20px; 
+text-align: left; 
+padding: 10px;
+}
+
+/* This is the description of projects */ 
+.description{
+font-family: Raleway; 
+font-size: 15px;
+text-align: left; 
+text-indent: 16px; 
+}
+
+/* this is the thumbnail article that shows the images of descriptions */ 
+.thumbnail{ 
+width: 200px; 
+height: 900px; 
+display: block; 
+float: left;
+margin-top: 160px; 
+} 
+
+.thumbnail img{ 
+width: 150px; 
+height: 100px;
+margin-top: 33px; 
+}
+
+.thumbnail a{ 
+font-family: Raleway;
+font-size: 10px; 
+text-align: left;
+margin-top: 5px; 
+text-decoration: none; 
+color: #27AFCC;
+}
+
+.text{ 
+width: 750px; 
+height: 600px;
+display: block;
+float: right; 
+}
+
+.thumbnail{ 
+width: 200px; 
+height: 850px;
+display: block;
+float: left; 
+}
+
+/* This is the for or basically encasing of the message form */ 
+form {
+width: 550px;  
+font-family: Raleway;
+font-size: 17px; 
+}
+
+.form{ 
+width: 550px; 
+height: 700px; 
+display: block; 
+float: right; 
+margin-top: 75px;
+}
+
+
+/* These are for the size of the buttons */ 
+.button{ 
+width: 125px;
+}
+
+/* The input and text area are for sizing of the message form */ 
+input {
+width: 250px; 
+}
+
+textarea{ 
+width: 500px; 
+height: 300px;
+}
+
+/* The arcticle ID that encases the left section of the contact page */ 
+#socialmedia {
+width: 300px; 
+height: 420px;
+display: block; 
+margin-top: 100px; 
+float: left;
+border: 1.75px #D167FF dashed;
+} 
+
+#socialmedia p {
+font-family: Raleway; 
+font-size: 17px; 
+text-decoration: none; 
+margin-left: 10px;
+}
+
+#socialmedia h3 { 
+font-family: Raleway; 
+text-align: center; 
+} 
+
+.blue { 
+font-family: Raleway; 
+font-size: 17px; 
+text-decoration: none; 
+} 
+
+#socialmedia li a { 
+text-decoration: none; 
+color: #27AFCC;
+}
+
+#resumewrite { 
+width: 350px; 
+height: 550px;
+text-align: left; 
+display: block; 
+float: left; 
+font-family: Raleway; 
+font-size: 15px;  
+}  
+
+#resumewrite p { 
+text-indent: 16px; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer { 
+border: 1px black solid; 
+display: block;
+position: absolute;
+margin-top: 100%; 
+width: 100%;
+} */
+
+
+

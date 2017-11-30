@@ -1,504 +1,736 @@
-body { 
-font-family: 'Noto Sans', sans-serif; 
-} 
-
-/* ---- All Sections ------ */ 
-.container { 
-width: 100%; 
-} 
-
-h1 { 
-font-size: 30px;
+body {
+font-family: 'Montserrat', sans-serif; 
 }
 
-h2 { 
-font-size: 25px; 
-} 
-
-h3 { 
-font-size: 20px;
-}
-
-h4 { 
-font-size: 17px; 
-} 
-
-h5 { 
-font-size: 15px;
-} 
-
-
-/* ------- Title Page -------- */ 
-
-.frontpage { 
-margin: auto; 
-width: 100%; 
+header { 
 display: block; 
-} 
-
-.head { 
 margin: auto; 
-width: 85%; 
-display: inline-block; 
+width: 100%;
+height: 80px;
+overflow: hidden;
+background-color: #ffffff; 
+margin-top: -10px;
+position: fixed;
+/*top: 0px; */
 }
 
 .logo { 
+margin-left: 55px; 
+width: 30%; 
+display: inline-block;
+/*position: fixed; */
 float: left; 
-width: 10% 
-display: inline; 
-padding: 20px;
-} 
+left: 0;
+margin-top: 20px; 
+}
 
-.subheader { 
-float: right; 
+nav ul li a { 
+text-decoration: none; 
+font-size: 18px; 
+padding: 13px; 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+float: left;
+}
+
+li:hover { 
+border-bottom: 2px solid #a4bbe1; 
+}
+
+/*#shopbutton:hover p{ 
+color: #ffffff;
+} */
+
+nav ul li a img { 
+width: 20%; 
 display: inline;
-font-size: 25px;  
-padding: 20px;
+}
+
+ul li { 
+display: block; 
+float: left; 
+padding: 15px;
+}
+
+nav ul { 
+position: fixed; 
+right: 0;
+}
+
+nav { 
+width:45%;
+display: inline;
+margin-right: -50px; 
+float: right;
+right:0;
+/*position: fixed; */
+margin-top: -20px; 
+background-color: #ffffff;
+}
+
+.container { 
+width: 100%; 
+display: block; 
+margin: auto; 
+}
+
+.openning { 
+width: 90%; 
+height: 100vh; 
+display: block; 
+margin: auto; 
+padding-top: 90px;
+}
+
+/*openning img{
+padding-top: 120px;
+} */
+
+.partonehome {
+width: 95%; 
+display: block; 
+margin: auto;
 } 
 
-.title { 
-margin: auto; 
-width: 60%;
-display: block;
+.partonehome:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+h1 { 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
 font-size: 30px; 
-padding: 20px; 
+margin: auto; 
+text-align: center;
+padding-top: 50px;
+display: block;
+padding-bottom: 40px;
+}
+
+h2 { 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+font-size: 26px; 
+margin: auto; 
+text-align: center;
+}
+
+h3 { 
+font-family: 'Montserrat', sans-serif; 
+color: #a4bbe1; 
+font-size: 24px; 
+margin: auto; 
+text-align: center;
+}
+p { 
+font-family: 'Montserrat', sans-serif;
+color: #a4bbe1;
+}
+
+.number1 { 
+width: 45%; 
+height: 300px;
+display: inline; 
+margin-left: 10px; 
+float: left; 
+padding-bottom: 40px;
+}
+
+.number1 h3 { 
+text-align: center; 
+width: 60%;
+margin: auto; 
+display: block; 
+padding-bottom: 5px;
+}
+
+.number1 p { 
+width: 70%;
+text-align: center; 
+margin: auto; 
+display: block; 
+padding-bottom: 10px; 
+}
+
+.number1 img { 
+margin: auto; 
+display: block; 
+width: 40%; 
+}
+
+.number2 { 
+width: 45%; 
+height: 300px;
+display: inline; 
+margin-left: 10px; 
+float: left; 
+padding-bottom: 40px;
+}
+
+.number2 h3 { 
+text-align: center; 
+width: 60%;
+margin: auto; 
+display: block; 
+padding-bottom: 5px;
+}
+
+.number2 p { 
+width: 70%;
+text-align: center; 
+margin: auto; 
+display: block; 
+padding-bottom: 10px; 
+}
+
+.number2 img { 
+margin: auto; 
+display: block; 
+width: 40%; 
+}
+
+.number3 { 
+width: 45%; 
+height: 300px;
+display: inline; 
+margin-right: 10px; 
+float: left; 
+padding-bottom: 40px;
+}
+
+.number3 h3 { 
+text-align: center; 
+width: 60%;
+margin: auto; 
+display: block; 
+padding-bottom: 5px;
+}
+
+.number3 p { 
+width: 70%;
+text-align: center; 
+margin: auto; 
+display: block; 
+padding-bottom: 10px; 
+}
+
+.number3 img { 
+margin: auto; 
+display: block; 
+width: 40%; 
+}
+
+.number4 { 
+width: 45%; 
+height: 300px;
+display: inline; 
+margin-right: 10px; 
+float: left; 
+padding-bottom: 40px;
+}
+
+.number4 h3 { 
+text-align: center; 
+width: 60%;
+margin: auto; 
+display: block; 
+padding-bottom: 5px;
+}
+
+.number4 p { 
+width: 70%;
+text-align: center; 
+margin: auto; 
+display: block; 
+padding-bottom: 10px; 
+}
+
+.number4 img { 
+margin: auto; 
+display: block; 
+width: 40%; 
+}
+
+#shopbutton p{ 
+text-align: center;
+padding-top: 15px; 
+padding-bottom: 15px;
+padding-right: 25px;
+padding-left: 25px;
+margin: auto;  
+border: 4px solid #a4bbe1;
+}
+#shopbutton a { 
+text-decoration: none; 
+}
+
+#shopbutton { 
+/*padding-top: 60px; */
+margin: auto;
+display: block;
+width: 250px; 
+height: 50px;
+/*border: 2px solid #aaaaaa; */
+}
+
+#shopbutton:hover { 
+background-color: #a4bbe1; 
+}
+
+#shopbutton:hover p{ 
+color: #ffffff;
 } 
 
-#mainpics { 
+.lensdemo { 
+width: 90%; 
 margin: auto; 
+display: block;
+padding-top: 70px;
+}
+
+
+.parttwohome {
+width: 100%; 
+display: block; 
+margin: auto;
+} 
+
+.parttwohome:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.parttwohome p{ 
+font-family: 'Montserrat', sans-serif;
+color: #a4bbe1;
+font-size: 17px; 
+text-align: center;
+display: block; 
+padding-bottom: 40px; 
+margin: auto;
+width: 80%;
+padding-top: 20px;
+} 
+
+.parttwohome h1{ 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+font-size: 30px; 
+margin: auto; 
+text-align: center;
+padding-top: 50px;
+display: block;
+}
+.parttwohome h3{ 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+font-size: 24px; 
+margin: auto; 
+text-align: center;
+display: block;
+}
+
+.arrow { 
+width: 5%; 
+margin:auto; 
+display: block; 
+}
+
+#partthreehome {
+width: 100%; 
+display: block; 
+margin: auto;
+} 
+
+#partthreehome p{ 
+font-family: 'Montserrat', sans-serif;
+color: #a4bbe1;
+font-size: 17px; 
+text-align: center;
+display: block; 
+padding-bottom: 80px; 
+margin: auto;
+width: 80%;
+padding-top: 20px;
+} 
+
+footer { 
+width: 100%; 
+display: block; 
+margin: auto; 
+position: relative; 
+background-color: #D7DAE1; 
+height: 100px;
+margin-bottom: -10px;
+}
+footer p { 
+font-size: 15px; 
+color: #ffffff; 
+padding-top: 20px;
+padding-left: 20px;
+}
+
+#partoneabout { 
+width: 100%; 
+margin: auto; 
+display: block;
+}
+
+#partoneabout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#partoneabout p{ 
+text-align: center; 
+width: 80%; 
+margin: auto;
+padding-bottom: 30px;
+}
+
+#parttwoabout { 
+width: 100%; 
+margin: auto; 
+display: block;
+padding-top: 30px;
+}
+
+#parttwoabout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.modes { 
+width: 50%; 
+float: left; 
+display: inline;
+height: 800px;
+}
+
+.modes:hover { 
+background-color: #a4bbe1; 
+}
+
+/*.modes > p:hover{ 
+	color: #ffffff;
+} */
+
+.modes:hover p{ 
+color: #ffffff;
+} 
+
+/*.tcolor:hover { 
+color: #ffffff; 
+} */
+.modes img { 
+width: 100%;
+} 
+
+.modes p { 
+width: 75%; 
+text-align: center; 
+margin: auto; 
+padding-top: 25px; 
+font-size: 13px;
+}
+
+#partthreeabout { 
+width: 100%; 
+margin: auto; 
+display: block;
+}
+
+#partthreeabout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#partthreeabout h1 { 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+font-size: 30px; 
+margin: auto; 
+text-align: center;
+padding-top: 75px;
+display: block;
+/*padding-bottom: 20px; */
+}
+
+.lensdemovid { 
+width: 90%; 
+margin: auto; 
+display: block;
+padding-bottom: 40px;
+}
+
+#shoptag { 
+width: 90%
+margin:auto; 
+display: block; 
+padding-bottom: 30px;
+}
+
+#shoptag:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#shoptag h1 { 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+font-size: 35px; 
+margin-left: 100px; 
+text-align: left;
+padding-top: 75px;
+display: block;
+}
+
+#shoptag h2 { 
+font-family: 'Montserrat', sans-serif; 
+color: #a4bbe1; 
+font-size: 26px; 
+margin-left: 100px; 
+text-align: left;
+display: block;
+}
+
+.shopimg { 
+width: 85%; 
+height: 100vh; 
+display: block; 
+margin: auto; 
+padding-top: 90px;
+}
+
+#shopdescription h1 { 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+font-size: 35px; 
+margin-left: 100px; 
+text-align: left;
+padding-top: 75px;
+display: block;
+}
+
+#shopdescription h2 { 
+font-family: 'Montserrat', sans-serif; 
+color: #a4bbe1; 
+font-size: 26px; 
+margin-left: 100px; 
+text-align: left;
+display: block;
+}
+
+#shopdescription p { 
+font-family: 'Montserrat', sans-serif; 
+color: #a4bbe1; 
+font-size: 17px; 
+margin-left: 100px; 
+text-align: left;
+padding-top: 30px;
+display: block;
+width: 70%;
+}
+
+.glassescolor1 { 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+font-size: 26px; 
+margin-left: 100px; 
+text-align: left;
+display: inline;
+} 
+
+.glassescolor2 { 
+font-family: 'Montserrat', sans-serif; 
+color: #a4bbe1; 
+font-size: 26px; 
+float: left;
+text-align: left;
+display: inline;
+}
+
+.glassescolor2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colorselection { 
+display: block; 
+width: 90%; 
+margin-left: 100px; 
+}
+.colorselection:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#addtocart p{ 
+text-align: center;
+padding-top: 15px; 
+padding-bottom: 15px;
+padding-right: 25px;
+padding-left: 25px;
+margin: auto;  
+border: 4px solid #a4bbe1;
+}
+#addtocart a { 
+text-decoration: none; 
+}
+
+#addtocart:hover { 
+background-color: #a4bbe1; 
+}
+
+#addtocart:hover p{ 
+color: #ffffff;
+} 
+
+h4 { 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+font-size: 26px; 
+margin-left: 100px; 
+text-align: left;
+float: left;
+display: inline;
+}
+#addtocart { 
+/*padding-top: 60px; */
+margin-left: 100px;
+display: block;
+width: 250px; 
+height: 50px;
+/*border: 2px solid #aaaaaa; */
+}
+
+#circles { 
+width: 5%; 
+display: block; 
+margin-left: 100px;  
+}
+.circles { 
+width: 5%;
+float: left; 
+display: block; 
+margin-left: -260px; 
+margin-top: 70px; 
+}
+
+#quantity { 
+width: 90%; 
+display: block; 
+margin: left; 
+margin-top: 30px; 
+}
+
+.colorcontainer { 
+width: 90%; 
+display: block; 
+margin-left: 100px;
+margin-top: 30px;
+} 
+.colorcontainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.glassescolor3 { 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+font-size: 26px; 
+float: left;
+text-align: left;
+display: block;
+}
+
+select { 
+width: 200px; 
+display: inline; 
+float: left; 
+margin-top: 45px;
+margin-left: 30px;
+}
+
+#quantity:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*#reviewhead { 
+border-bottom: 1px solid black; 
+padding-bottom: 5px; 
+} */
+.review h1 { 
+font-family: 'Montserrat', sans-serif; 
+color: black; 
+font-size: 35px; 
+margin-left: -2px; 
+text-align: left;
+padding-top: 75px;
+display: block;
+}
+
+.review { 
 width: 65%; 
 display: block; 
-padding: 20px; 
-} 
-
-.titan1 { 
-float: left; 
-display: inline; 
-width: 50%;
-} 
-
-.titan2 { 
-float: right; 
-display: inline;
-width: 50%;  
-} 
-
-.spacer { 
-width: 100%; 
-display: inline-block; 
-height: 100px; 
-padding: 10px;
+margin-left: 100px; 
+margin-top: 30px; 
+border-bottom: 1px solid black;
+padding-bottom: 10px; 
 }
 
-#emptyspace { 
-width: 100%; 
-height: 70px;  
+.review p { 
+width: 70%; 
 display: block; 
-} 
-
-/* ------ About Section ----- */ 
-ul.address { 
-list-style-type: none;
-} 
-
-#about { 
-margin: auto; 
-display: block; 
-width: 85%; 
-} 
-
-/* ----------Table of Contents Section ----- */ 
-#toc { 
-margin: auto; 
-display: block; 
-width: 85%;  
-} 
-
-.block1 { 
-left-margin: 20px; 
-} 
-
-.block2 { 
-left-margin: 20px; 
-} 
-
-.block3 { 
-left-margin: 20px; 
-} 
-
-/* --------- Safety Information Section ------ */ 
-
-.triangle { 
-display: block;
+margin-top: 20px; 
 }
 
-.warningsign { 
-display: inline; 
-float: left; 
-width: 10%; 
-padding: 10px; 
-}
-
-.warningtext { 
-display: inline-block; 
-width: 75%; 
-}
-
-.safety { 
-display: block; 
-width: 100%; 
-padding:10px;
-} 
-
-#safety { 
-margin: auto; 
-display: block; 
-width: 85%; 
-} 
-
-ul.address { 
-list-style-type: none; 
-} 
-
-/* ---------- Specifications Section ------------- */ 
-#specs { 
-margin: auto; 
-display: block; 
-width: 85%; 
-} 
-
-.fastenerid { 
-margin: auto; 
-display: inline-block; 
-width: 85%; 
-} 
-
-.bolt1 { 
+.review h4 { 
 width: 50%; 
-display: block; 
-margin: auto; 
-padding: 5px;
-} 
-
-.bolt2 { 
-width: 50%; 
-display: block;
-margin: auto; 
-padding: 5px; 
-} 
-
-.fid { 
-margin: auto; 
-width: 26%;
-display: block; 
-} 
-
-/* ------ Table ----- */ 
-table { 
-border-collapse: collapse; 
-} 
-
-td.threadsize { 
-border-top: none; 
-} 
-
-th { 
-border: 1px solid black; 
-} 
-
-tr td { 
-border: 1px solid black;
-} 
-
-.standtorque {  
-margin: auto; 
-display: block; 
-width: 85%;
-} 
-
-.standtorquetitle { 
-margin: auto; 
-display: block; 
-width: 80%; 
-} 
-
-.standtorque > p { 
-font-size: 12px; 
-} 
-
-.standmetric { 
-margin: auto; 
-display: block; 
-width: 85%;
-} 
-
-.standmetric > p { 
-font-size: 12px; 
-} 
-
-.othertorque { 
-margin: auto; 
-display: inline-block; 
+margin-left: -2px;
 }
 
-
-#specs34 { 
-margin: auto; 
-display: block; 
-padding-bottom: 20px; 
-} 
-
-.spec3 { 
-width: 50%; 
-display: block; 
-margin: auto; 
-padding: 5px;
-} 
-
-.spec4 { 
-width: 50%; 
-display: block; 
-margin: auto;
-padding: 5px; 
-} 
-
-.steel { 
-display: block; 
-margin: auto;
-width: 30%;
-padding: 10px;
-} 
-
-.wheel { 
-display: block; 
-margin: auto;
-width: 25%;
-padding: 10px;
-}
-
-#specs56 { 
-display: block; 
-margin: auto; 
-padding-top: 20px; 
-}
-
-.thread1 { 
-display: block; 
-margin: auto;
-width: 42%;
-padding: 10px;  
-} 
-
-.thread2 { 
-display: block; 
-margin: auto;
-width: 42%;
-padding: 10px;
-} 
-
-.spec5 { 
-display: block; 
-margin: auto; 
-width: 50%;
-padding: 5px;
-} 
-
-.spec6 { 
-display: block; 
-margin: auto;
-width: 50%; 
-padding: 5px;
-} 
-
-.undertext { 
-font-size: 12px; 
-display: block; 
-margin: auto;
-width: 40%;
-} 
-.conversion1 { 
-width: 35%; 
-margin: auto; 
-display: inline; 
-float: left; 
-} 
-
-.conversion2 { 
-width: 35%; 
-margin: auto; 
-display: inline; 
-float: right; 
-} 
-
-#factors { 
-width: 85%; 
-margin: auto; 
-} 
-
-#equiv { 
-margin: auto; 
-display: block; 
-width: 85%; 
-} 
-
-.mill { 
-margin: auto; 
-width: 45%; 
-display: block; 
-} 
-
-.spec7 { 
-margin: auto; 
-width: 85%; 
-display: block; 
-padding-bottom: 20px; 
-} 
-
-.us { 
-margin: auto; 
-width: 35%; 
-display: block; 
-padding-top: 10px; 
-} 
-
-.spec8 { 
-margin: auto; 
-width: 85%; 
-display: block; 
-} 
-
-.zx { 
-margin: auto; 
-display: block; 
-width: 32%; 
-padding-top: 20px; 
-} 
-
-.spec9 { 
-margin: auto; 
-display: block; 
-width: 75%; 
-padding-bottom: 20px; 
-} 
-
-.subheading { 
-margin: auto; 
-display: block; 
-width: 20%; 
-padding: 5px; 
-} 
-
-.spec10 { 
-margin: auto; 
-display: block; 
-width: 85%; 
-padding-bottom: 20px; 
-} 
-
-.spec11 { 
-margin: auto; 
-display: block; 
-width: 85%; 
-padding-bottom: 20px; 
-} 
-
-.spec17 { 
-margin: auto; 
-display: block; 
-width: 75%;
-padding-bottom: 20px; 
-} 
-.spec12 { 
-margin: auto; 
-display: block; 
-width: 85%; 
-padding-bottom: 20px;
-} 
-
-.spec13 { 
-margin: auto; 
-display: block; 
-width: 75%; 
-padding-bottom: 20px; 
-} 
-
-.spec14 { 
-margin: auto; 
-display: block; 
-width: 75%; 
-padding-bottom: 20px; 
-} 
-
-.spec15 { 
-margin: auto; 
-display: block; 
-width: 75%; 
-padding-bottom: 30px; 
-} 
-
-.spec16 { 
-margin: auto; 
-width: 70%;
-display: block; 
-} 
-
-.hydroengine { 
-margin: auto; 
+.outofstock { 
 width: 60%; 
-display: block; 
-padding: 10px; 
-} 
-
-.enginespec { 
 margin: auto; 
-width: 95%;
+padding: 15px;
 display: block; 
-} 
+border: 4px solid red; 
+}
 
-.hydraulicoil { 
+.outofstock h1 { 
+font-size: 50px; 
+color: red; 
+text-align: center; 
+}
+
+.apology { 
+width: 60%; 
+display: block;
 margin: auto; 
-width: 70%; 
-display: block; 
-padding: 10px; 
-} 
+padding-top: 40px; 
+}
 
-ul.steps { 
-list-style-type: none; 
-font-size: 15px; 
-margin: auto; 
-width: 20%;
-} 
+.apology p { 
+text-align: center; 
+padding-top: 30px; 
+}
 
-#chassis { 
-margin: auto; 
-width: 85%; 
-display: block; 
-} 
-.greasenumber { 
-margin: auto; 
-width: 70%; 
-display: block; 
-padding-bottom: 30px; 
-} 
-
-.bigschematic { 
-margin: auto; 
-width: 85%; 
-display: block; 
-} 
-
-.frontaxle { 
-margin:auto; 
-width: 70%; 
-display: block; 
-} 
-
-.casterwheel { 
-margin:auto; 
-width: 70%; 
-display: block; 
-} 
-
-
-
+#spacer { 
+width: 100%; 
+height: 100px; 
+}
 
